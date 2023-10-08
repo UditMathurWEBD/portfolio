@@ -1,0 +1,17 @@
+.landing-bg{
+  background-size: cover;
+  background-position: center;
+  background-image: url(landing.svg);
+  font-family: 'Lato', sans-serif !important;
+}
+
+
+
+
+@media (max-width: 425px){
+  .landing-bg {
+    background-image: none;
+    font-family: 'Lato', sans-serif !important;
+  background-color: black;
+  }
+  }

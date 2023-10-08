@@ -1,0 +1,146 @@
+.four-cards{
+display: flex;
+}
+
+.card-1{
+background: var(--linear, linear-gradient(135deg, #BE0A23 0%, #E99F00 100%));
+text-align: center;
+color: white;
+border-radius: 0px;
+font-family: 'Lato', sans-serif !important;
+}
+
+
+.four-images{
+margin-bottom: 40px;
+}
+
+.project-heading{
+color: #FFF;
+text-align: center;
+font-family: 'Lato', sans-serif !important;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 40px;
+}
+
+
+.project-meaning{
+color: #FFF;
+text-align: center;
+font-family: 'Lato', sans-serif !important;
+font-size: 15.033px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.project-lines{
+color: #FFF;
+text-align: center;
+font-family: 'Lato', sans-serif !important;
+font-size: 7.117px;
+font-style: normal;
+font-weight: 500;
+line-height: 9.964px; /* 140% */
+}
+
+
+.project-view {
+border-radius: 8px;
+background: #000;
+border: 0px solid;
+font-size: 12px;
+padding: 10px 15px;
+font-family: 'Lato', sans-serif !important;
+}
+a{
+text-decoration: none;
+color: white;
+font-family: 'Lato', sans-serif !important;
+}
+
+
+.card-body{
+border-radius: 0px;
+font-family: 'Lato', sans-serif !important;
+}
+
+
+.card-2{
+background: linear-gradient(180deg, #FC5C5C 0%, #F00 100%);
+font-family: 'Lato', sans-serif !important;
+box-shadow: 3.5999999046325684px 3.5999999046325684px 125.99999237060547px 0px rgba(0, 0, 0, 0.08);
+text-align: center;
+color: white;
+border-radius: 0px;
+}
+
+
+.card-3{
+background: #407BFF;
+box-shadow: 3.5999999046325684px 3.5999999046325684px 125.99999237060547px 0px rgba(0, 0, 0, 0.08);
+text-align: center;
+color: white;
+border-radius: 0px;
+}
+
+
+.card-4{
+    background: #00B0C3;
+    box-shadow: 8.103702545166016px 8.103702545166016px 283.62957763671875px 0px rgba(0, 0, 0, 0.08);
+text-align: center;
+color: white;
+border-radius: 0px;
+}
+
+
+.lassi-image{
+    height: 200px;
+}
+
+.card{
+    width: 400px;
+    transition:cubic-bezier(0.39, 0.575, 0.565, 1) 500ms;
+}
+
+
+.trubot-image {
+    width: 250px !important;
+    align-self: center;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    z-index: 9999999;
+    border-radius: 8px;
+}
+
+
+
+@media(max-width : 900px){
+    .four-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+   
+    }
+}
+
+
+
+
+@media(max-width : 425px){
+    .four-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        padding: 20px;
+    }
+}

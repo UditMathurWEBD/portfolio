@@ -1,0 +1,128 @@
+.app-section{
+    background-image: url(../images/appbg.svg);
+    background-size: cover;
+    color: black;
+    padding:80px;
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+margin-top: 80px;
+}
+
+.img-yodaeye{
+    width: 1000px;
+
+}
+
+
+.flexing-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  
+}
+
+.hover-button{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.title-name{
+    width: fit-content;
+    font-weight: 800;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.805);
+}
+
+.list-width{
+    max-width: 60%;
+    width: fit-content;
+}
+
+.li-text-size{
+    font-size: 14px;
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.project-name{
+    font-size: 20px;
+    width: fit-content;
+}
+
+.box-tools {
+    text-align: left;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid #3F3F3F;
+    padding: 30px 30px;
+    color: black;
+    background: black;
+}
+
+.tools-used{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.box-tools {
+    text-align: left;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #3F3F3F;
+    padding: 30px 30px;
+    color: black;
+    background: black;
+}
+
+.para-app{
+    width: fit-content;
+}
+
+
+
+@media (max-width: 425px){
+    .app-section {
+        background-color: white;
+        color: black;
+        padding: 50px 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        margin-top: 80px;
+        flex-direction: column-reverse;
+    }
+
+    .title-name {
+        width: fit-content;
+        font-weight: 800;
+        margin-top: 30px;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.805);
+    }
+
+    .list-width {
+        max-width: 100%;
+        width: -moz-fit-content;
+        width: fit-content;
+
+    }
+    .box-tools {
+        text-align: left;
+        width: -webkit-fill-available;
+        border-radius: 20px;
+        border: 1px solid #3F3F3F;
+        padding: 30px 30px;
+        color: black;
+        background: black;
+    }
+    
+    }

@@ -1,0 +1,47 @@
+#main{
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+#aboutme{
+    margin-top: 130px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+
+.para-description{
+    width: 510px;
+}
+
+
+.mybutton {
+    border-radius: 40px;
+    border: 2px solid #FE2C2C;
+    background: #0C1112;
+    padding: 10px 30px;
+}
+
+.resume{
+    color:#FE2C2C;
+}

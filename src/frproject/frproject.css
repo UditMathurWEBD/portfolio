@@ -1,0 +1,51 @@
+.frdev-line{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    margin-top: 80px;
+}
+
+.flexing-buttons-fr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.fr-section{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../fr-section.svg);
+    font-family: 'Lato', sans-serif !important;
+  }
+
+
+  .image-change{
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+    height: 800px;
+  }
+  
+
+  .image-center{
+    text-align-last: center;
+  }
+
+
+  .alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+    display: inline-block;
+    cursor: pointer;
+    padding: 14px 20px !important;
+    margin: 0;
+    background: #b56340 !important;
+    border-radius: 50px !important;
+    color: #ffffff !important;
+}
+
+.__inactive {
+    opacity: 1 !important;
+    pointer-events: none;
+    background:  #2c46ec !important;
+}
