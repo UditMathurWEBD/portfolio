@@ -7,11 +7,12 @@ import Aboutme from './aboutme/aboutme';
 import Frontend from './frontend/frontend';
 import Appdevelop from './appdevelopment/appdevelop';
 import FrontendProject from './frproject/frproject';
+import Home from './home';
 
 function App() {
   return (
     <div className="App">
-      <section  className='landing-bg'>
+      {/* <section  className='landing-bg'>
       <Landing></Landing>
       <Project></Project>
       </section>
@@ -23,7 +24,8 @@ function App() {
       <Tooling></Tooling>
      <FrontendProject></FrontendProject>
      <br></br>   <br></br>
-     <Frontend></Frontend>
+     <Frontend></Frontend> */}
+     <Home></Home>
  
      
 
